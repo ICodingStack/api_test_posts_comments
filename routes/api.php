@@ -13,7 +13,10 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('/TopPosts','postController@TopPosts')->name('topPosts');
+//This Route For Question1
+Route::get('/TopPosts','postController@TopPosts');
+//This Route For Question2
+Route::post('/filter','postController@filter');
 
 
 
